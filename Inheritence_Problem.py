@@ -12,8 +12,8 @@ class Car:
 
 class RaceCar(Car):
     def __init__(self,noOfGear,color,maxSpeed):
-        self.maxSpeed=maxSpeed
         super().__init__(noOfGear,color)
+        self.maxSpeed=maxSpeed
 
     def RaceCarInfo(self):
         super().printCarInfo()
